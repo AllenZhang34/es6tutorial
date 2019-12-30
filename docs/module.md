@@ -670,7 +670,7 @@ const myModual = require(path);
 
 上面的语句就是动态加载，`require`到底加载哪一个模块，只有运行时才知道。`import`命令做不到这一点。
 
-因此，有一个[提案](https://github.com/tc39/proposal-dynamic-import)，建议引入`import()`函数，完成动态加载。
+[ES2020提案](https://github.com/tc39/proposal-dynamic-import) 引入`import()`函数，支持动态加载模块。
 
 ```javascript
 import(specifier)
@@ -800,3 +800,4 @@ async function main() {
 }
 main();
 ```
+
